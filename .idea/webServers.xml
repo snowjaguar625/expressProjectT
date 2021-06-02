@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c17f6cc4-4c30-45f8-bd44-13af07673cc5" name="fnm-server">
+        <fileTransfer accessType="SFTP" host="34.195.51.126" port="22" sshConfigId="985675e3-e18c-4bdb-9e06-de3d306618d9" sshConfig="root@34.195.51.126:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1facfe53-2941-4a11-8f61-9572f2f96199" name="fnm-client">
+        <fileTransfer accessType="SFTP" host="34.195.51.126" port="22" sshConfigId="985675e3-e18c-4bdb-9e06-de3d306618d9" sshConfig="root@34.195.51.126:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
